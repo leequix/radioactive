@@ -1,0 +1,25 @@
+{
+  "name": "leequix/radioactive",
+  "description": "Radio controller",
+  "type": "project",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leequix",
+      "email": "dev@leequix.xyz"
+    }
+  ],
+  "require": {
+    "leequix/icecast-streamer": "^1.0",
+    "php-di/php-di": "^5.4",
+    "predis/predis": "^1.1",
+    "monolog/monolog": "^1.23",
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Radioactive\\": "src/"
+    }
+  }
+}
